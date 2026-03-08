@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 40px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        input {
+            padding: 8px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 8px 16px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        div {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Conversor de Temperatura</h1>
+
+    <!-- campo pra digitar a temperatura -->
+    <p>
+        <label for="celsius">Temperatura em Celsius:</label><br><br>
+        <input type="number" id="celsius" placeholder="Digite aqui">
+    </p>
+
+    <button id="btnConverter">Converter</button>
+
+    <!-- Irá aparecer o resultado aqui  -->
+    <div id="resultado"></div>
+
+    <!-- Ligando com o código JavaScript aqui :)) -->
+    <script src="../js/conversor.js"></script>
+
+</body>
+
+</html>
